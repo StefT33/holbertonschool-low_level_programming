@@ -5,10 +5,10 @@
  */
 int main(void)
 {
-printf("\n %d octets pour variable de type char ",sizeof(char));
-printf("\n %d octets pour variable de type short int ",sizeof(short int));
-printf("\n %d octets pour variable de type long int ",sizeof(long int));
-printf("\n %d octets pour variable de type long long int ",sizeof(long long int));
-printf("\n %d octets pour variable de type float ",sizeof(float));
+printf("Size of a char: %d bytes\n",sizeof(char));
+printf("Size of a int: %d bytes\n",sizeof(int));
+printf("Size of a long int: %d bytes\n",sizeof(long int));
+printf("Size of a long long int: %d bytes\n",sizeof(long long int));
+printf("Size of a float: %d bytes\n",sizeof(float));
 return (0);
 }
