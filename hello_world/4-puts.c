@@ -1,9 +1,10 @@
 #include <stdio.h>
 /**
- * description de ce qui doit s'afficher
+ * main - affiche un message en sortie
+ * Return: 0
  */
 int main(void)
 {
-puts("\"Programming is like building a multilingual puzzle");
-return (0);
+    puts("\"Programming is like building a multilingual puzzle");
+    return (0);
 }
