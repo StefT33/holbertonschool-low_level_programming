@@ -1,5 +1,5 @@
 #include <unistd.h>
-#include <main.h>
+#include "main.h"
 /**
 * main - entry point
 * Descrption: print alphabet, followed by a new line
