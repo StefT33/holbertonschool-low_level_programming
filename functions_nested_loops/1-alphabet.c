@@ -1,9 +1,10 @@
 #include <unistd.h>
 #include "main.h"
 /**
-* void print_alphabet: print alphabet, followed by a new line
+* print_alphabet - prints alphabet followed by a new line
 *
-* Return: 0;
+* Description: _putchar is used to print alphabet
+* Return: void
 */
 void print_alphabet(void)
 {
