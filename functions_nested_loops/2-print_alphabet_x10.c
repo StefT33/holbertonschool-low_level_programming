@@ -8,11 +8,9 @@
 void print_alphabet_x10(void)
 {
 char alpha[] = "abcdefghijklmnopqrstuvwxyz";
-int i, j;
-for (i = 0 ; i < 10 ; i++)
+int i;
+for (i = 0; i < 10; i++)
 {
-for (j = 0 ; alpha[j] != '\0' ; j++)
-_putchar(alpha[j]);
-_putchar('\n');
+write(1, alpha, 27);
 }
 }
