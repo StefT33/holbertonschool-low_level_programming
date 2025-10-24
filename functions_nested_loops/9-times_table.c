@@ -29,7 +29,7 @@ else
 _putchar((multi / 10) + '0');
 _putchar((multi % 10) + '0');
 }
-}	
+}
 _putchar('\n');
 }
 }
