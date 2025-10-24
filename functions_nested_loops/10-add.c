@@ -11,6 +11,6 @@ int add(int a, int b)
 {
 int somme;
 somme = a + b;
-printf("%d + %d = %d", a, b, somme);
+printf(" %d", somme);
 return (somme);
 }
