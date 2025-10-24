@@ -2,5 +2,5 @@
 #define MAIN_H
 
 int _putchar(char c);
-int print_last_digit(int);
+int print_last_digit(int m);
 #endif
