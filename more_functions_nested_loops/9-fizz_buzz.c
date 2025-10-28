@@ -23,6 +23,10 @@ else if (n % 5 == 0)
 {
 printf("Buzz ");
 }
+else if (n == 100)
+{
+printf("%d", n);
+}
 else
 {
 printf("%d ", n);
