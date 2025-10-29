@@ -9,6 +9,7 @@ char *ptr = str;
 while (*ptr != '\0')
 {
 _putchar(*ptr);
-ptr = ptr + 2; }
+ptr = ptr + 2;
+}
 _putchar('\n');
 }
