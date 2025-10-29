@@ -15,17 +15,6 @@ return (0);
 while (*s != '\0')
 {
 len++;
-s++;
-}
-if (len < 10)
-{
-_putchar(len + '0');
-}
-else
-{
-_putchar(len / 10 + '0');
-_putchar(len % 10 + '0');
-}
-}
+s++;}
 return (len);
 }
