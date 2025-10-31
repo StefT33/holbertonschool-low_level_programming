@@ -15,6 +15,7 @@ char sep[] = " \t\n,;.!?\"(){}";
 
 while (s[i] != '\0')
 {
+int deb = 0;
 if (i == 0)
 deb = 1;
 else
