@@ -13,8 +13,9 @@ while (*p != '\0')
 {
 if (*p == c)
 return (p);
-else
 p++;
 }
+if (c == '\0')
+return (p);
 return (NULL);
 }
